@@ -1,0 +1,55 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+.pipenv
+.pipenv.lock
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy, Pyright, and other static analysis tools
+.mypy_cache/
+.pytype/
+
+# Testing and Coverage reports
+.coverage
+.tox/
+.nox/
+.cache/
+htmlcov/
+*.cover
+
+# Linter and Editor settings
+ruff_cache/
+pylint.log
+flake8.log
+*.vscode/
+.idea/
+*.iml
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# AWS credentials and environment variables
+.aws/
+secrets.toml
+
+# Ignore dataforge artifacts (if needed)
+dataforge/cache/
